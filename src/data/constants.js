@@ -53,30 +53,6 @@ export const skills = [
     ],
   },
   {
-    title: "Backend",
-    skills: [
-      {
-        name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
-      },
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
-    ],
-  },
-  {
     title: "Others",
     skills: [
       {
@@ -157,6 +133,17 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Movie-GPT",
+    date: "Nov-2024",
+    description: ` Movie-GPT replicates an OTT platform with OpenAI API for personalized movie recommendations. Implemented user authentication, GPT-powered search, autoplaying trailers, and personalized movie lists.`,
+    image : "Portfolio\src\assets\MovieGPT.png",
+    tags: ["React", "Redux", "Firebase", "TailwindCSS"],
+    category: "Web App",
+    github: "https://github.com/Nikita06211/Netflix-gpt",
+    webapp: "https://movie-gpt-tau.vercel.app/"
+  },
+  {
+    id: 1,
     title: "WeatherWise",
     date: "Aug-2023",
     description:
@@ -169,7 +156,7 @@ export const projects = [
     webapp: "/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Music Player",
     date: "Jul 2023 - Aug 2023",
     description:
@@ -182,7 +169,7 @@ export const projects = [
     webapp: "https://nikita06211.github.io/Music-player/",
   },
   {
-    id: 2,
+    id: 3,
     title: "CodingConquest",
     date: "June 2023",
     description:
@@ -195,7 +182,7 @@ export const projects = [
     webapp: "https://nikita06211.github.io/CodingConquest/",
   },
   {
-    id: 3,
+    id: 4,
     title: "TaskFlow",
     date: "Jun 2023",
     description:
