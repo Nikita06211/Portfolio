@@ -53,6 +53,30 @@ export const skills = [
     ],
   },
   {
+    title: "Backend",
+    skills: [
+      {
+        name: "Node Js",
+        image: "https://nodejs.org/static/images/logo.svg",
+      },
+      {
+        name: "Python",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "MySQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+      {
+        name: "MongoDB",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+    ],
+  },
+  {
     title: "Others",
     skills: [
       {
@@ -133,17 +157,44 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Movie-GPT",
-    date: "Nov-2024",
-    description: ` Movie-GPT replicates an OTT platform with OpenAI API for personalized movie recommendations. Implemented user authentication, GPT-powered search, autoplaying trailers, and personalized movie lists.`,
-    image : "Portfolio\src\assets\MovieGPT.png",
-    tags: ["React", "Redux", "Firebase", "TailwindCSS"],
-    category: "Web App",
-    github: "https://github.com/Nikita06211/Netflix-gpt",
-    webapp: "https://movie-gpt-tau.vercel.app/"
+    title: "DocsAi",
+    date: "June-2025",
+    description:
+      "A documentation assistant for developers to talk to various docs.",
+    image:
+      "portfolio\src\images\docsai.png",
+    tags: ["Node.Js", "Express.Js", "Next.Js"],
+    category: "web page",
+    github: "https://github.com/Nikita06211/docsai-frontend",
+    webapp: "https://docsai-frontend-ssr.pages.dev/",
   },
   {
     id: 1,
+    title: "DevTinder",
+    date: "Feb-2025",
+    description:
+      "A networking platform facilitating connections between users/developers",
+    image:
+      "portfolio\src\images\devtinder.png",
+    tags: ["Node.Js", "Express.Js", "React.Js"],
+    category: "web page",
+    github: "https://github.com/Nikita06211/devTinderWeb",
+    webapp: "https://dev-tinder-web-pink.vercel.app/login",
+  },
+  {
+    id: 2,
+    title: "Movie-GPT",
+    date: "Jan-2025",
+    description:
+      "Movie-GPT replicates an OTT platform with Groq API for personalized movie recommendations. Implemented user authentication, groq-powered search, autoplaying trailers, and personalized movie lists.",
+    image: "https://ibb.co/DPhVCWTW",
+    tags: ["React.Js", "JavaScript", "API"],
+    category: "web page",
+    github: "https://github.com/Nikita06211/Movie-gpt",
+    webapp: "/",
+  },
+  {
+    id: 3,
     title: "WeatherWise",
     date: "Aug-2023",
     description:
@@ -156,7 +207,7 @@ export const projects = [
     webapp: "/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Music Player",
     date: "Jul 2023 - Aug 2023",
     description:
@@ -169,7 +220,7 @@ export const projects = [
     webapp: "https://nikita06211.github.io/Music-player/",
   },
   {
-    id: 3,
+    id: 5,
     title: "CodingConquest",
     date: "June 2023",
     description:
@@ -182,7 +233,7 @@ export const projects = [
     webapp: "https://nikita06211.github.io/CodingConquest/",
   },
   {
-    id: 4,
+    id: 6,
     title: "TaskFlow",
     date: "Jun 2023",
     description:
