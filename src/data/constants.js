@@ -1,3 +1,6 @@
+import devtinder from '../images/devtinder.png';
+import doscai from '../images/doscai.png';
+
 export const Bio = {
   name: "Nikita Bansal",
   roles: [
@@ -162,7 +165,7 @@ export const projects = [
     description:
       "A documentation assistant for developers to talk to various docs.",
     image:
-      "portfolio\src\images\docsai.png",
+      doscai,
     tags: ["Node.Js", "Express.Js", "Next.Js"],
     category: "web page",
     github: "https://github.com/Nikita06211/docsai-frontend",
@@ -175,76 +178,13 @@ export const projects = [
     description:
       "A networking platform facilitating connections between users/developers",
     image:
-      "portfolio\src\images\devtinder.png",
+      devtinder,
     tags: ["Node.Js", "Express.Js", "React.Js"],
     category: "web page",
     github: "https://github.com/Nikita06211/devTinderWeb",
     webapp: "https://dev-tinder-web-pink.vercel.app/login",
   },
-  {
-    id: 2,
-    title: "Movie-GPT",
-    date: "Jan-2025",
-    description:
-      "Movie-GPT replicates an OTT platform with Groq API for personalized movie recommendations. Implemented user authentication, groq-powered search, autoplaying trailers, and personalized movie lists.",
-    image: "https://ibb.co/DPhVCWTW",
-    tags: ["React.Js", "JavaScript", "API"],
-    category: "web page",
-    github: "https://github.com/Nikita06211/Movie-gpt",
-    webapp: "/",
-  },
-  {
-    id: 3,
-    title: "WeatherWise",
-    date: "Aug-2023",
-    description:
-      "A user-friendly weather wep page designed to provide you with quick and accurate weather updates for cities around the world",
-    image:
-      "https://private-user-images.githubusercontent.com/120494269/261843728-3551559f-feb7-4bac-8b20-5a48ac304002.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDM2NTE4MzQsIm5iZiI6MTcwMzY1MTUzNCwicGF0aCI6Ii8xMjA0OTQyNjkvMjYxODQzNzI4LTM1NTE1NTlmLWZlYjctNGJhYy04YjIwLTVhNDhhYzMwNDAwMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyN1QwNDMyMTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05MWFlNWY5OTVhMTJjMDg2YTY1Zjk2ODZjZjQ2NjgxNDI3OGRkOWQwODhjYjUyOTZmM2EyOWNkZjFiNDU0OGEzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.BszDdpx5qfvbck_63WFDa3p7A_Zle5nlvorrMYNwwC8",
-    tags: ["HTML/CSS", "JavaScript", "API"],
-    category: "web page",
-    github: "https://github.com/Nikita06211/Weather_app",
-    webapp: "/",
-  },
-  {
-    id: 4,
-    title: "Music Player",
-    date: "Jul 2023 - Aug 2023",
-    description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:
-      "https://github.com/Nikita06211/Music-player/assets/120494269/c1addcf9-73dd-4833-9320-fe261412bc67",
-    tags: ["HTML/CSS", "JavaScript"],
-    category: "web page",
-    github: "https://github.com/Nikita06211/Music-player",
-    webapp: "https://nikita06211.github.io/Music-player/",
-  },
-  {
-    id: 5,
-    title: "CodingConquest",
-    date: "June 2023",
-    description:
-      "CodingConquest aims to provide real-time information about coding challenges, events, and competitions from various online platforms, allowing users to stay updated and plan their coding journey effectively.",
-    image:
-      "https://private-user-images.githubusercontent.com/120494269/259940762-7ab33253-0e92-4a25-a148-788a03305808.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDM2NTEzNTQsIm5iZiI6MTcwMzY1MTA1NCwicGF0aCI6Ii8xMjA0OTQyNjkvMjU5OTQwNzYyLTdhYjMzMjUzLTBlOTItNGEyNS1hMTQ4LTc4OGEwMzMwNTgwOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyN1QwNDI0MTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xOTk5MDcwZGQ1N2ZiMTI4NjUzZDdmM2ViZWJiNjA1YjgxMzlhODA1MzBhYzZhMmU0Y2JhZDBhMWZlYTcyOTY5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.GPWIgTeays2MOTpm1e2rV82MntRZ9Y4v0UosCi91Pmw",
-    tags: ["HTML/CSS", "JavaScript", "BootStrapt", "API"],
-    category: "web page",
-    github: "https://github.com/Nikita06211/CodingConquest",
-    webapp: "https://nikita06211.github.io/CodingConquest/",
-  },
-  {
-    id: 6,
-    title: "TaskFlow",
-    date: "Jun 2023",
-    description:
-      " A Todo Web App made with HTML/CSS, JavaScript and BootStrap.",
-    image:
-      "https://private-user-images.githubusercontent.com/120494269/259410091-c691d94e-6b5d-4958-9068-732b06fd6fa3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDM2NTExNDEsIm5iZiI6MTcwMzY1MDg0MSwicGF0aCI6Ii8xMjA0OTQyNjkvMjU5NDEwMDkxLWM2OTFkOTRlLTZiNWQtNDk1OC05MDY4LTczMmIwNmZkNmZhMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyN1QwNDIwNDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jNTIwOGM1ZTc0M2ViZmE0MzE4OGY1NWY0Y2E2MjFhMzhkZTVjOTU2MjVkNTlmMTVkYjc2MGVhNWVlOGM1YmUyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.WYWaY38W5GTvFYTjskropgHsXNWp2ADpoXrGt8Pc-b0",
-    tags: ["HTML/CSS", "Local Storage", "JavaScript", "BootStrap"],
-    category: "web page",
-    github: "https://github.com/Nikita06211/Todo-List",
-    webapp: "https://nikita06211.github.io/Todo-List/",
-  },
+  
 ];
 
 export const TimeLineData = [
