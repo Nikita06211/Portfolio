@@ -12,7 +12,7 @@ export const Bio = {
   description:
   "Passionate programmer and web developer with strong problem-solving skills. Dedicated contributor to open-source projects and experienced in UI/UX design. Currently pursuing B-Tech in AI and DS at Maharaja Agrasen Institute of Technology.",
 github: "https://github.com/Nikita06211",
-resume: "https://drive.google.com/drive/folders/16EinAuiPlYGV-YwPFJ6VMIG8WOYDFANp?usp=drive_link",
+resume: "https://drive.google.com/file/d/1RPS9VlrD-8EH7TstuN2OQshxrPvt-Q_v/view?usp=drive_link",
 linkedin: "https://www.linkedin.com/in/nikita-bansal-66bb33227/"
 };
 
