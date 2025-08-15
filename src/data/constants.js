@@ -1,5 +1,6 @@
 import devtinder from '../images/devtinder.png';
 import doscai from '../images/doscai.png';
+import landingpage from '../images/landingpage.png';
 
 export const Bio = {
   name: "Nikita Bansal",
@@ -183,6 +184,19 @@ export const projects = [
     category: "web page",
     github: "https://github.com/Nikita06211/devTinderWeb",
     webapp: "https://dev-tinder-web-pink.vercel.app/login",
+  },
+  {
+    id: 2,
+    title: "ADmyBRAND Landing page",
+    date: "April-2025",
+    description:
+      "Designed and developed a fully responsive landing page for ADmyBRAND",
+    image:
+      landingpage,
+    tags: ["Next.js", "TailwindCSS", "TypeScript", "Zod"],
+    category: "web page",
+    github: "https://github.com/Nikita06211/admybrand-ai-suite",
+    webapp: "https://admybrand-ai-suite-qjjk.vercel.app/",
   },
   
 ];
