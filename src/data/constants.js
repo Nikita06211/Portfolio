@@ -1,6 +1,6 @@
-import devtinder from '../images/devtinder.png';
-import doscai from '../images/doscai.png';
-import landingpage from '../images/landingpage.png';
+import devtinder from "../images/devtinder.png";
+import doscai from "../images/docsai.png";
+import landingpage from "../images/landingpage.png";
 
 export const Bio = {
   name: "Nikita Bansal",
